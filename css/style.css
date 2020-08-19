@@ -1,0 +1,558 @@
+
+h1,h3{
+  font-family: 'Great Vibes', cursive;
+}
+p{
+  color:#888;
+}
+/* Navigation */
+.logo-knot{
+  height:100px;
+  width:100px;
+
+}
+.navbar-brand{
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+}
+
+/*.navbar-custom{
+  background-color: #cc0404;;
+
+}*/
+.navbar-custom a{
+  color:#7c0a02;
+}
+.nav-item{
+  padding:0 18px;
+}
+/* title */
+#title{
+
+ background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/header.jpg");
+//  background-color: grey;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position:relative;
+
+    overflow: hidden;
+}
+/* Animation Of text*/
+
+.animated_big{
+	animation-duration: 1.25s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both
+
+}
+.animated_small{
+	animation-duration: 1.25s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both
+
+}
+.animated_heading{
+	animation-duration: 1.25s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both
+
+}
+/*
+.animated_intro{
+  animation-duration: 4.50s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 4.50s;
+    -webkit-animation-fill-mode: both
+}
+.animated_gb{
+  animation-duration: 4.50s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 4.50s;
+    -webkit-animation-fill-mode: both
+}
+.animated_gbimage{
+  animation-duration: 4.50s;
+	animation-fill-mode: both;
+	 -webkit-animation-duration: 4.50s;
+    -webkit-animation-fill-mode: both
+
+}*/
+.delay-s{
+  animation-delay: 1s;
+}
+.delay-h{
+  animation-delay: 1.50s;
+}
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,200px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,200px,0)
+    }
+
+    to {
+        transform: translate3d(200,0,0);
+        opacity: 1
+    }
+}
+
+
+/* Animation of flowers*/
+.set{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+.set div{
+	position:absolute;
+	display: block;
+
+}
+.set div:nth-child(1){
+	left:20%;
+	animation:animate 15s linear infinite;
+	animation-delay: -7s;
+}
+.set div:nth-child(2){
+	left:50%;
+	animation:animate 20s linear infinite;
+	animation-delay: -5s;
+}
+.set div:nth-child(3){
+	left:70%;
+	animation:animate 25s linear infinite;
+
+}
+.set div:nth-child(4){
+	left:0%;
+	animation:animate 15s linear infinite;
+	animation-delay: -5s;
+}
+.set div:nth-child(5){
+	left:85%;
+	animation:animate 18s linear infinite;
+	animation-delay: -10s;
+}
+.set div:nth-child(6){
+	left:0%;
+	animation:animate 12s linear infinite;
+}
+.set div:nth-child(7){
+	left:15%;
+	animation:animate 14s linear infinite;
+}
+.set div:nth-child(8){
+	left:60%;
+	animation:animate 15s linear infinite;
+}
+@keyframes animate
+{
+	0%{
+		opacity:0;
+		top:-10%;
+		transform: translateX(20px)rotate(0deg);
+	}
+	10%{
+		opacity: 1;
+	}
+	20%{
+		transform: translateX(-20px)rotate(45deg);
+	}
+
+
+	40% {
+		transform: translateX(-20px)rotate(90deg);
+	}
+	60%{
+		transform: translateX(20px)rotate(135deg);
+	}
+	80%{
+		transform: translateX(-20px)rotate(180deg);
+	}
+
+	100%{
+	    top:110%;
+	    transform: translateX(-20px)rotate(225deg);
+		}
+}
+.set2{
+	transform: scale(2) rotateY(180deg);
+	filter: blur(2px);
+}
+.set3{
+	transform: scale(0.8) rotateX(180deg);
+	filter: blur(4px);
+}
+/*h2{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0
+	font-size:8em;
+	font-family: sans-serif;
+}*/
+
+.big-heading{
+  text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+    font-size:3.5rem;
+    padding:5% 0% 2%;
+    color:#fff;
+}
+.small-heading{
+  text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size:2rem;;
+    font-weight: 500;
+    color:#fff;
+
+}
+.heading{
+
+  text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size:1.567em;;
+    font-weight: 400;
+    color:#fff;
+
+}
+.curly-img1{
+  display: block;
+  margin-left: auto;
+ margin-right: auto;
+  width: 300px;
+  height:70px;
+ margin-top:50px;
+ //margin-bottom: 50px;
+  color:#fff;
+  //margin:50px auto 70px;
+
+}
+.curly-img2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height:70px;
+color:#fff;
+margin-bottom:130px;
+transform:rotate(180deg);
+}
+
+/* Introduction Section*/
+
+ #introduction {
+  background:linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),url("../images/wedding-heart.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.intro{
+  text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size:1.567em;;
+    font-weight: 400;
+    margin:7% auto 5%;
+    color:#010038;
+}
+.intro span.line{
+  display: inline-block;
+      width: 90px;
+      height: 1px;
+      background: #d9d7d7;
+      content: '';
+      text-align: center;
+}
+.intro span.line2{
+  width: 50px;
+  text-align: center;
+}
+
+.intro-gb{
+  text-align: center;
+  padding: 3%;
+
+
+}
+.our-story{
+   color:#010038;
+   text-align: center;
+   font-weight:300;
+   font-size:15px;
+}
+.invite{
+  text-align: center;
+  margin-top:12%;
+  margin-bottom: 5%;
+
+}
+.brigro-image{
+  margin:7% auto 10%;
+  border-radius: 50%;
+}
+
+/* Events section*/
+
+#events{
+
+  background-color: #c70d3a;
+  color:white;
+
+}
+.event-heading{
+  color:white;
+}
+.ceremoney-s{
+  text-align:left;
+  margin:4% 0% 8%;
+  padding-left:3%;
+  padding-right:3%;
+  font-size:15px;
+  font-weight:300;
+
+}
+.ceremoney{
+  margin-top:30px;
+}
+.ceremoney-content{
+  color:white;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+/* Wedding Day Section*/
+
+#main-event{
+   background:linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),url("../images/wedplace.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+/* left Section */
+.wed-ceremoney{
+  text-align:left;
+  margin-bottom: 80px;
+
+}
+.wedplace{
+  text-align: center;
+  color:#010038;
+  margin-bottom: 20px;
+}
+.venue-time{
+  padding-left: 30%;
+}
+.date-w{
+  color:#010038;
+  font-size:15px;
+  font-weight:300;
+}
+.time-w{
+ color:#010038;
+ font-size:15px;
+  font-weight:300;
+}
+.adress-w{
+  color:#010038;
+  font-size:15px;
+  font-weight:300;
+}
+
+/* right Section */
+
+
+/*div {
+  display: inline-block;
+  line-height: 1.5;
+  padding: 20px;
+  font-size: 40px;
+	background-color:pink;
+
+}*/
+.counter{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+
+.timer{
+  background-color:  #c70d3a;
+  display:inline-block;
+  padding:5px 10px;
+
+}
+.sectimer {
+  color: #010038;
+
+}
+
+.CountDown{
+  margin-bottom: 20px;
+  color:#010038;
+}
+.days {
+  font-size: 50px;
+  color:white;
+}
+.hours {
+  font-size: 50px;
+  color: white;
+}
+.minutes {
+  font-size: 50px;
+  color:white;
+}
+.seconds {
+  font-size: 50px;
+  color:#010038;
+}
+
+.fam-photos {
+  margin-bottom: 70px;
+}
+
+#family{
+  background-color: #c70d3a;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background:#fff;
+}
+
+/* footer */
+#footer{
+  background:linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),url("../images/wedding-heart.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+
+
+}
+.footer-b{
+  text-align: center;
+  margin:30px auto 30px;
+  color:#010038;
+}
+.kid-c{
+	font-size:15px;
+	font-family:sans-serif;
+	font-weight:300;
+}
+#footer-bottom{
+	background-color: #c70d3a;
+    color:white;
+    font-family:'sans-serif';
+    text-align:center;
+    	
+}
+.footer-c{
+	font-size:15px;
+	margin-top:20px;
+	margin-bottom:20px;
+  font-family: sans-serif;
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+@media (max-width: 480px){
+.intro span.line {
+    width: 35px;
+}
+.venue-time {
+  padding-left: 25px;
+}
+.date-w{
+  padding-left: 80px;
+}
+.time-w{
+ padding-left: 80px;
+}
+.adress-w{
+  padding-left: 80px;
+}
+.CountDown{
+  margin-top:50px;
+}
+
+.timer{
+  background-color:  #c70d3a;
+  display:inline-block;
+  padding:5px;
+
+}
+.CountDown{
+  margin-bottom: 20px;
+}
+.days {
+  font-size: 50px;
+  color:white;
+}
+.hours {
+  font-size: 50px;
+  color: white;
+}
+.minutes {
+  font-size: 50px;
+  color:white;
+}
+.seconds {
+  font-size: 50px;
+  color:black;
+}
+}
